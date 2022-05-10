@@ -1,6 +1,6 @@
 # Py COCO Segmentor
 
-A python utlitiy wrapper around `pycocotools` to generate a dataset for semantic segmentation from the original [COCO dataset](https://cocodataset.org/).
+A python utlitiy wrapper around `pycocotools` to generate a dataset for semantic segmentation from the original [COCO dataset](https://cocodataset.org/). This will generate a dataset consisting of a copy of images from COCO and masked images in the form of tiff files ready training on machine learning segmentation models like UNet.
 
 ## Dependencies
 
